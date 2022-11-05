@@ -1,4 +1,4 @@
-export const host = "https://mern-stack-livechatapp.herokuapp.com/";
+export const host = "https://mern-stack-livechatapp.herokuapp.com";
 export const registerRoute = `${host}/api/auth/register`;
 export const loginRoute = `${host}/api/auth/login`;
 export const avatarRoute = `${host}/api/auth/avatar`;
