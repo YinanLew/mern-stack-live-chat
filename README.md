@@ -1,4 +1,6 @@
-Mern Full Stack Live Chat App, Frontend 
+Mern Full Stack Live Chat App, Frontend
+
+Backend is running on Heroku
 
 You can visit this live chat app at here:
 https://amazing-brioche-49759d.netlify.app/
