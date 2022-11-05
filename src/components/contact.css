@@ -1,0 +1,105 @@
+.container-contacts {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #6a8a44;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.brand > img {
+  height: 2rem;
+}
+
+.brand > h3 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  gap: 0.8rem;
+}
+
+.contacts::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+  width: 0.1rem;
+  border-radius: 1rem;
+}
+
+.contact {
+  background-color: #ffffff34;
+  min-height: 5rem;
+  cursor: pointer;
+  width: 90%;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.contact > .avatar img {
+  height: 3rem;
+}
+
+.contact > .username h3 {
+  color: #fff;
+}
+
+.selected {
+  background-color: #9bcc5f;
+}
+
+.current-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.current-user > .avatar img {
+  height: 4rem;
+  max-inline-size: 100%;
+}
+
+.username h2 {
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  /* .current-user {
+        gap: 0.5rem;
+    } */
+  /* 
+    .contacts {
+        width: 46%;
+    } */
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .current-user {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .username h2 {
+    font-size: 1rem;
+  }
+}
